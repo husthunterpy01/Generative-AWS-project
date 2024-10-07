@@ -1,0 +1,15 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"sagemaker:CreateEndpointConfig",
+				"sagemaker:CreateEndpoint",
+				"sagemaker:DescribeEndpoint",
+				"sagemaker:UpdateEndpoint"
+			],
+			"Resource": "arn:aws:sagemaker:us-west-2:011407462230:endpoint-config/*"
+		}
+	]
+}
